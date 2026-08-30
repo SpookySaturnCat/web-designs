@@ -17,5 +17,31 @@
             "black pepper",
             "lemon"
         ]
+    },
+    {
+        "name": "Salmon Cous Cous Bowl",
+        "cuisine": "greek",
+        "effort": "medium",
+        "budget": "expensive",
+        "protien": "salmon",
+        "time": 80,
+        "ingredients": [
+            "salmon",
+            "olive oil",
+            "hummus",
+            "garlic",
+            "cucumber",
+            "greek yogurt",
+            "salt",
+            "black pepper",
+            "lemon",
+            "oregano",
+            "cous cous",
+            "paprika",
+            "tomatoes",
+            "saffron",
+            "red bell pepper",
+            "purple cabbage"
+        ]
     }
 ]
