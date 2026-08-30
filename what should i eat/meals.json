@@ -1,0 +1,24 @@
+[
+    {
+
+    },
+    {
+        "name": "Shrimp Al Burro with Broccoli",
+        "cuisine": "Italian",
+        "effort": "easy",
+        "budget": "cheap",
+        "protien": "shrimp",
+        "time": 20,
+        "ingredients": [
+            "shrimp",
+            "butter",
+            "parmesean",
+            "garlic",
+            "broccoli",
+            "pasta water",
+            "salt",
+            "black pepper",
+            "lemon"
+        ]
+    }
+]
