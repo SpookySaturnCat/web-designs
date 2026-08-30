@@ -12,6 +12,7 @@ const mealName = document.querySelector("#mealName");
 const mealTime = document.querySelector("#mealTime");
 const mealBudget = document.querySelector("#mealBudget");
 const mealEffort = document.querySelector("#mealEffort");
+const mealProtien = document.querySelector("#mealProtien");
 const ingredientsList = document.querySelector("#ingredients");
 
 fetch("meals.json")
@@ -102,10 +103,10 @@ function displayMeal(meal) {
     mealTime.textContent = `${meal.time} minutes`;
     mealBudget.textContent = `${meal.budget}`;
     mealEffort.textContent = `${meal.effort}`;
+    mealProtien.textContent = `${meal.protien}`;
 
     // Clear old ingredients
     ingredientsList.innerHTML = "";
-
 
     // Add ingredients
     meal.ingredients.forEach(ingredient => {
