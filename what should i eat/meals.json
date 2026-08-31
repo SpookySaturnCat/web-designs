@@ -1,7 +1,10 @@
 [
     {
         "name": "Shrimp Al Burro with Broccoli",
-        "cuisine": "italian",
+        "cuisine": [
+            "italian",
+            "healthy"
+        ],
         "effort": "easy",
         "budget": "cheap",
         "protien": "shrimp",
@@ -20,7 +23,10 @@
     },
    {
         "name": "Spaghetti Puttanesca",
-        "cuisine": "italian",
+        "cuisine": [
+            "italian",
+            "healthy"
+        ],
         "effort": "easy",
         "budget": "cheap",
         "protien": "anchovy",
@@ -41,7 +47,10 @@
     },
     {
         "name": "Fish Piccata",
-        "cuisine": "italian",
+        "cuisine": [
+            "italian",
+            "healthy"
+        ],
         "effort": "medium",
         "budget": "normal",
         "protien": "white fish",
@@ -53,19 +62,71 @@
             "black pepper",
             "white wine",
             "capers",
-            "unsaltd butter",
+            "unsalted butter",
             "lemon",
             "parsley"
         ]
     },
 
     {
+        "name": "Ceaser Salad Wrap",
+        "cuisine": [
+            "american"
+        ],
+        "effort": "easy",
+        "budget": "cheap",
+        "protien": "vegetarian chicken",
+        "time": 10,
+        "ingredients":[
+            "tortilla",
+            "ceaser dressing",
+            "parmesean",
+            "black pepper",
+            "italian blend seasoning",
+            "lettuce",
+            "vegetarian chicken"
+        ]
+    },
+    {
+        "name": "Mac-And-Cheese",
+        "cuisine": [
+            "american",
+            "junk"
+        ],
+        "effort": "medium",
+        "budget": "cheap",
+        "protien": "cheese",
+        "time": 40,
+        "ingredients":[
+            "pasta",
+            "butter",
+            "all purpose flour",
+            "onion powder",
+            "garlic powder",
+            "paprika",
+            "salt",
+            "black pepper",
+            "hot sauce",
+            "yellow mustard",
+            "heavy cream",
+            "mozzerella cheese",
+            "extra sharp cheddar cheese",
+            "smoked gouda",
+            "water",
+            "white wine"
+        ]
+    },
+
+    {
         "name": "Salmon Cous Cous Bowl",
-        "cuisine": "greek",
+        "cuisine": [
+            "greek",
+            "healthy"
+        ],
         "effort": "medium",
         "budget": "expensive",
         "protien": "salmon",
-        "time": 80,
+        "time": 65,
         "ingredients": [
             "salmon",
             "olive oil",
@@ -89,8 +150,76 @@
     },
 
     {
+        "name": "Shrimp Udon Soup",
+        "cuisine": [
+            "japanese",
+            "healthy"
+        ],
+        "effort": "easy",
+        "budget": "cheap",
+        "protien": "shrimp",
+        "time": 30,
+        "ingredients": [
+            "sesame oil",
+            "onion",
+            "shrimp",
+            "vegetable broth paste",
+            "garlic",
+            "ginger",
+            "red pepper flakes",
+            "black pepper",
+            "soy sauce",
+            "oyster sauce",
+            "chili oil",
+            "udon noodles",
+            "bok choy or cabbage",
+            "egg",
+            "green onion"
+        ]
+    },
+
+    {
+        "name": "Paneer Tikka Masala",
+        "cuisine": [
+            "indian"
+        ],
+        "effort": "hard",
+        "budget": "expensive",
+        "protien": "paneer",
+        "time": 80,
+        "ingredients": [
+            "paneer",
+            "greek yogurt",
+            "garlic",
+            "ginger",
+            "kashmiri red chili powder",
+            "garam masala",
+            "fenugreek",
+            "tumeric",
+            "salt",
+            "lemon",
+            "olive oil",
+            "red bell pepper",
+            "onion",
+            "cardamom",
+            "cinnamon",
+            "cloves",
+            "bay leaf",
+            "tomatoes",
+            "cashews",
+            "sugar",
+            "water",
+            "heavy cream",
+            "cilantro"
+        ]
+    },
+
+    {
         "name": "Ojingeo Deopbap",
-        "cuisine": "korean",
+        "cuisine": [
+            "korean",
+            "healthy"
+        ],
         "effort": "medium",
         "budget": "expensive",
         "protien": "squid",
@@ -120,11 +249,13 @@
     },
     {
         "name": "Yubu Kimbap",
-        "cuisine": "korean",
+        "cuisine": [
+            "korean"
+        ],
         "effort": "medium",
         "budget": "cheap",
         "protien": "tofu",
-        "time": 60,
+        "time": 55,
         "ingredients": [
             "rice",
             "sea salt",

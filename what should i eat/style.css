@@ -193,7 +193,6 @@ header p {
 }
 
 /* Meal Information */
-
 #mealInfo {
     display: flex;
     justify-content: center;
@@ -213,8 +212,7 @@ header p {
     border-right: none;
 }
 
-/* Ingreddients */
-
+/* Ingredients */
 #result h3 {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 19px;
