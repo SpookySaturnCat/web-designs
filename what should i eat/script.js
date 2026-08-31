@@ -1,5 +1,5 @@
 let meals = [];
-let selectedCuisine = "any";
+let selectedCuisine = [];
 let selectedEffort = "any";
 let selectedBudget = "any";
 
@@ -33,12 +33,32 @@ fetch("meals.json")
 
 cuisineButtons.forEach(button => {
     button.addEventListener("click", () => {
-        selectedCuisine = button.dataset.cuisine;
+        const cuisine = button.dataset.cuisine;
 
-        updateSelectedButton(
-            cuisineButtons,
-            button
-        );
+        // "Anything" clears all cuisine selections
+        if (cuisine === "any" || null) {
+            selectedCuisine = [];
+
+            cuisineButtons.forEach(button => {button.classList.remove("selected");});
+
+            button.classList.add("selected");
+            return;
+        }
+
+        // Remove "Anything" if another cuisine is selected
+        const anyButton = document.querySelector("[data-cuisine='any']");
+        anyButton.classList.remove("selected");
+
+        // If already selected, remove it
+        if (selectedCuisine.includes(cuisine)) {
+            selectedCuisine = selectedCuisine.filter(selected => selected !== cuisine);
+            button.classList.remove("selected");
+        }
+        // If not selected, add it
+        else {
+            selectedCuisine.push(cuisine);
+            button.classList.add("selected");
+        }
     });
 });
 
@@ -73,23 +93,11 @@ function updateSelectedButton(buttons, selectedButton) {
 
 function getMatchingMeals() {
     return meals.filter(meal => {
-        const cuisineMatches =
-            selectedCuisine === "any" ||
-            meal.cuisine === selectedCuisine;
+        const cuisineMatches = selectedCuisine.length === 0 || selectedCuisine.every(cuisine => meal.cuisine.includes(cuisine));
+        const effortMatches = selectedEffort === "any" || meal.effort === selectedEffort;
+        const budgetMatches = selectedBudget === "any" || meal.budget === selectedBudget;
 
-        const effortMatches =
-            selectedEffort === "any" ||
-            meal.effort === selectedEffort;
-
-        const budgetMatches =
-            selectedBudget === "any" ||
-            meal.budget === selectedBudget;
-
-        return (
-            cuisineMatches &&
-            effortMatches &&
-            budgetMatches
-        );
+        return (cuisineMatches && effortMatches && budgetMatches);
     });
 }
 
@@ -108,7 +116,7 @@ function displayMeal(meal) {
 
      // Show ingredients title
     ingredientsTitle.style.display = "block";
-    
+
     // Clear old ingredients
     ingredientsList.innerHTML = "";
 
