@@ -101,9 +101,9 @@ function chooseMeal(mealList) {
 function displayMeal(meal) {
     mealName.textContent = meal.name;
     mealTime.textContent = `${meal.time} minutes`;
-    mealBudget.textContent = `${meal.budget}`;
-    mealEffort.textContent = `${meal.effort}`;
-    mealProtien.textContent = `${meal.protien}`;
+    mealBudget.textContent = `Price: ${meal.budget.charAt(0).toUpperCase()}${meal.budget.slice(1)}`;
+    mealEffort.textContent = `Difficulty: ${meal.effort.charAt(0).toUpperCase()}${meal.effort.slice(1)}`;
+    mealProtien.textContent = `Protien: ${meal.protien.charAt(0).toUpperCase()}${meal.protien.slice(1)}`;
 
     // Clear old ingredients
     ingredientsList.innerHTML = "";
