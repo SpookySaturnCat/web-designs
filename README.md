@@ -2,9 +2,9 @@
 ## ✨ Thank you for checking this repo out
 
 All projects are organized in their own folder!
-Most of this stuff is old and is learning experiments. 
+Most of this stuff is old and are learning experiments. 
 
-### Here is my most recent projects: 
+## Here is my most recent projects: 
 
 ### 08/30/26
 This is a project that allows the user to select a cuisine style, budget, and difficulty level, and then get a random recipe presented to them with time, ingredients, protein, budget, and difficulty listed
