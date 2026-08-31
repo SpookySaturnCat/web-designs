@@ -7,7 +7,7 @@ Most of this stuff is old and is learning experiments.
 ### Here is my most recent projects: 
 
 ### 08/30/26
-This is a very simple web design that allows the user to select a cuisine style, budget, and difficulty level, and then get a random recipe
+This is a project that allows the user to select a cuisine style, budget, and difficulty level, and then get a random recipe presented to them with time, ingredients, protein, budget, and difficulty listed
 
 <img width="1908" height="997" alt="image" src="https://github.com/user-attachments/assets/e8bd8114-76f1-4d21-8a74-0a905a54b291" />   
 
