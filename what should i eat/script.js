@@ -14,6 +14,7 @@ const mealBudget = document.querySelector("#mealBudget");
 const mealEffort = document.querySelector("#mealEffort");
 const mealProtien = document.querySelector("#mealProtien");
 const ingredientsList = document.querySelector("#ingredients");
+const ingredientsTitle = document.querySelector("#result h3");
 
 fetch("meals.json")
     .then(response => response.json())
@@ -105,6 +106,9 @@ function displayMeal(meal) {
     mealEffort.textContent = `Difficulty: ${meal.effort.charAt(0).toUpperCase()}${meal.effort.slice(1)}`;
     mealProtien.textContent = `Protien: ${meal.protien.charAt(0).toUpperCase()}${meal.protien.slice(1)}`;
 
+     // Show ingredients title
+    ingredientsTitle.style.display = "block";
+    
     // Clear old ingredients
     ingredientsList.innerHTML = "";
 
@@ -126,6 +130,8 @@ decideButton.addEventListener("click", () => {
         mealBudget.textContent = "";
         mealEffort.textContent = "";
         ingredientsList.innerHTML = "";
+        mealProtien.textContent = "";
+        ingredientsTitle.style.display = "none";
         return;
     }
 
