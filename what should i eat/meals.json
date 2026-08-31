@@ -18,6 +18,47 @@
             "lemon"
         ]
     },
+   {
+        "name": "Spaghetti Puttanesca",
+        "cuisine": "italian",
+        "effort": "easy",
+        "budget": "cheap",
+        "protien": "anchovy",
+        "time": 20,
+        "ingredients": [
+            "olive oil",
+            "garlic",
+            "anchovy fillets",
+            "red pepper flakes",
+            "capers",
+            "black olives",
+            "tomatoes",
+            "salt",
+            "spaghetti",
+            "parmesean",
+            "black pepper"
+        ]
+    },
+    {
+        "name": "Fish Piccata",
+        "cuisine": "italian",
+        "effort": "medium",
+        "budget": "normal",
+        "protien": "white fish",
+        "time": 20,
+        "ingredients": [
+            "olive oil",
+            "all purpose flour",
+            "white fish fillets",
+            "black pepper",
+            "white wine",
+            "capers",
+            "unsaltd butter",
+            "lemon",
+            "parsley"
+        ]
+    },
+
     {
         "name": "Salmon Cous Cous Bowl",
         "cuisine": "greek",
@@ -31,7 +72,9 @@
             "hummus",
             "garlic",
             "cucumber",
+            "dill",
             "greek yogurt",
+            "black olives",
             "salt",
             "black pepper",
             "lemon",
@@ -42,6 +85,60 @@
             "saffron",
             "red bell pepper",
             "purple cabbage"
+        ]
+    },
+
+    {
+        "name": "Ojingeo Deopbap",
+        "cuisine": "korean",
+        "effort": "medium",
+        "budget": "expensive",
+        "protien": "squid",
+        "time": 60,
+        "ingredients": [
+            "squid",
+            "rice wine",
+            "onion",
+            "green onion",
+            "carrot",
+            "green cabbage",
+            "olive oil",
+            "sesame oil",
+            "rice",
+            "water",
+            "salt",
+            "egg",
+            "gochujang",
+            "soy sauce",
+            "gochugaru",
+            "korean chili oil",
+            "sugar",
+            "minced garlic",
+            "black pepper",
+            "sesame seeds"
+        ]
+    },
+    {
+        "name": "Yubu Kimbap",
+        "cuisine": "korean",
+        "effort": "medium",
+        "budget": "cheap",
+        "protien": "tofu",
+        "time": 60,
+        "ingredients": [
+            "rice",
+            "sea salt",
+            "sesame oil",
+            "vinegar",
+            "water",
+            "deep fried tofu",
+            "soy sauce",
+            "egg",
+            "carrot",
+            "perilla",
+            "yellow radish pickle",
+            "black pepper",
+            "sea weed"
         ]
     }
 ]
