@@ -6,7 +6,7 @@
             "healthy"
         ],
         "effort": "easy",
-        "budget": "cheap",
+        "budget": "moderate",
         "protien": "shrimp",
         "time": 20,
         "ingredients": [
@@ -19,6 +19,19 @@
             "salt",
             "black pepper",
             "lemon"
+        ]
+    },
+    {
+        "name": "Molly's Shrimp Scampi",
+        "cuisine": [
+            "italian",
+            "healthy"
+        ],
+        "effort": "easy",
+        "budget": "moderate",
+        "protien": "shrimp",
+        "ingredients": [
+            "shrimp"
         ]
     },
    {
@@ -52,7 +65,7 @@
             "healthy"
         ],
         "effort": "medium",
-        "budget": "normal",
+        "budget": "moderate",
         "protien": "white fish",
         "time": 20,
         "ingredients": [
@@ -69,9 +82,55 @@
     },
 
     {
+        "name": "Har Gow",
+        "cuisine": [
+            "chinese",
+            "healthy"
+        ],
+        "effort": "hard",
+        "budget": "moderate",
+        "protien": "shrimp",
+        "time": 80,
+        "ingredients": [
+            "shrimp",
+            "oyster sauce",
+            "vegetable oil",
+            "white pepper",
+            "sesame oil",
+            "salt",
+            "sugar",
+            "bamboo shoots",
+            "wheat starch",
+            "cornstarch",
+            "boiling water"
+        ]
+    },
+    {
+        "name": "crab rangoons",
+        "cuisine": [
+            "chinese",
+            "american",
+            "junk"
+        ],
+        "effort": "medium",
+        "budget": "cheap",
+        "protien": "immitation crab",
+        "time": 60,
+        "ingredients": [
+            "cream cheese",
+            "immitation crab",
+            "scallions",
+            "wonton wrappers",
+            "salt",
+            "onion powder"
+        ]
+    },
+
+    {
         "name": "Ceaser Salad Wrap",
         "cuisine": [
-            "american"
+            "american",
+            "junk"
         ],
         "effort": "easy",
         "budget": "cheap",
@@ -94,7 +153,7 @@
             "junk"
         ],
         "effort": "medium",
-        "budget": "cheap",
+        "budget": "moderate",
         "protien": "cheese",
         "time": 40,
         "ingredients":[
@@ -114,6 +173,24 @@
             "smoked gouda",
             "water",
             "white wine"
+        ]
+    },
+
+    {
+        "name": "Max's Potato Soup",
+        "cuisine": [
+            "american",
+            "junk"
+        ],
+        "effort": "easy",
+        "budget":"cheap",
+        "protien": "none",
+        "time": 45,
+        "ingredients": [
+            "balls",
+            "gucci morty",
+            "wilson",
+            "ugliness"
         ]
     },
 
@@ -138,12 +215,14 @@
             "black olives",
             "salt",
             "black pepper",
+            "onion powder",
             "lemon",
             "oregano",
             "cous cous",
             "paprika",
             "tomatoes",
             "saffron",
+            "feta cheese",
             "red bell pepper",
             "purple cabbage"
         ]
@@ -156,7 +235,7 @@
             "healthy"
         ],
         "effort": "easy",
-        "budget": "cheap",
+        "budget": "moderate",
         "protien": "shrimp",
         "time": 30,
         "ingredients": [
@@ -170,7 +249,7 @@
             "black pepper",
             "soy sauce",
             "oyster sauce",
-            "chili oil",
+            "chili crisp oil",
             "udon noodles",
             "bok choy or cabbage",
             "egg",
@@ -181,7 +260,8 @@
     {
         "name": "Paneer Tikka Masala",
         "cuisine": [
-            "indian"
+            "indian",
+            "healthy"
         ],
         "effort": "hard",
         "budget": "expensive",
@@ -211,6 +291,37 @@
             "water",
             "heavy cream",
             "cilantro"
+        ]
+    },
+    {
+        "name": "Punjabi Potato Samosas",
+        "cuisine": [
+            "indian",
+            "junk"
+        ],
+        "effort": "hard",
+        "budget": "cheap",
+        "protien": "none",
+        "time": 90,
+        "ingredients": [
+            "all purpose flour",
+            "cardamom seeds",
+            "salt",
+            "ghee",
+            "potatoes",
+            "water",
+            "cumin seeds",
+            "minced ginger",
+            "green chilies",
+            "asafoetida",
+            "red chili powder",
+            "garam masala",
+            "cumin powder",
+            "fennel powder",
+            "green peas",
+            "cilantro",
+            "lemon juice",
+            "vegetable oil"
         ]
     },
 
@@ -250,7 +361,8 @@
     {
         "name": "Yubu Kimbap",
         "cuisine": [
-            "korean"
+            "korean",
+            "healthy"
         ],
         "effort": "medium",
         "budget": "cheap",
@@ -270,6 +382,30 @@
             "yellow radish pickle",
             "black pepper",
             "sea weed"
+        ]
+    },
+
+    {
+        "name": "Amber's Paksiw na Isda",
+        "cuisine": [
+            "filipino",
+            "healthy"
+        ],
+        "effort": "easy",
+        "budget": "cheap",
+        "protien": "fish",
+        "time": 30,
+        "ingredients": [
+            "fish (your choice)",
+            "knob ginger",
+            "garlic",
+            "vinegar",
+            "water",
+            "onion",
+            "bitter gourd",
+            "finger chili",
+            "salt",
+            "whole peppercorn"
         ]
     }
 ]
