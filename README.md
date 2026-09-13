@@ -10,7 +10,7 @@ Most of this stuff is old and are learning experiments.
 This is a project that allows the user to select a cuisine style, budget, and difficulty level, and then get a random recipe presented to them with time, ingredients, protein, budget, and difficulty listed.   
 Please note the css has not been finalized on this project. Functionality is first priority.
 
-<img width="1908" height="997" alt="image" src="https://github.com/user-attachments/assets/e8bd8114-76f1-4d21-8a74-0a905a54b291" />   
+<img width="1895" height="1001" alt="image" src="https://github.com/user-attachments/assets/86b601f1-2912-4086-8b1e-456060cc34d3" />
 
 ### 08/12/26
 This is a very simple web design that allows the user to hover their mouse over the preloaded characters, to randomly cycle through an array of emojis that are in line with the theme of an apothecary. This is a hobby design.
