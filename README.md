@@ -6,9 +6,9 @@ Most of this stuff is old and are learning experiments.
 
 ## These are my most recent projects: 
 
-### 08/30/26
+### 09/13/26
 This is a project that allows the user to select a cuisine style, budget, and difficulty level, and then get a random recipe presented to them with time, ingredients, protein, budget, and difficulty listed.   
-Please note the css has not been finalized on this project. Functionality is first priority.
+Currently updating the recipes as I find more I want to add!
 
 <img width="1895" height="1001" alt="image" src="https://github.com/user-attachments/assets/86b601f1-2912-4086-8b1e-456060cc34d3" />
 
