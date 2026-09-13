@@ -64,23 +64,31 @@ cuisineButtons.forEach(button => {
 
 effortButtons.forEach(button => {
     button.addEventListener("click", () => {
-        selectedEffort = button.dataset.effort;
+        const effort = button.dataset.effort;
 
-        updateSelectedButton(
-            effortButtons,
-            button
-        );
+        // If clicking the active button, toggle it off back to "any"
+        if (selectedEffort === effort && effort !== "any") {
+            selectedEffort = "any";
+            updateSelectedButton(effortButtons, null);
+        } else {
+            selectedEffort = effort;
+            updateSelectedButton(effortButtons, button);
+        }
     });
 });
 
 budgetButtons.forEach(button => {
     button.addEventListener("click", () => {
-        selectedBudget = button.dataset.budget;
+        const budget = button.dataset.budget;
 
-        updateSelectedButton(
-            budgetButtons,
-            button
-        );
+        // If clicking the active button, toggle it off back to "any"
+        if (selectedBudget === budget && budget !== "any") {
+            selectedBudget = "any";
+            updateSelectedButton(budgetButtons, null);
+        } else {
+            selectedBudget = budget;
+            updateSelectedButton(budgetButtons, button);
+        }
     });
 });
 
@@ -88,7 +96,11 @@ function updateSelectedButton(buttons, selectedButton) {
     buttons.forEach(button => {
         button.classList.remove("selected");
     });
-    selectedButton.classList.add("selected");
+    
+    // Only highlight if a specific button was selected
+    if (selectedButton) {
+        selectedButton.classList.add("selected");
+    }
 }
 
 function getMatchingMeals() {
