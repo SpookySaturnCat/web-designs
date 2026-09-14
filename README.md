@@ -6,6 +6,12 @@ Most of this stuff is old and are learning experiments.
 
 ## These are my most recent projects: 
 
+### 09/14/26
+Started in the evening of 09/13/2026 between homework and studying, this is in the early planning stage, and will be a relatively large personal project for me.   
+Current task is completing the design concept for the homepage in Canva, and creating/obtaining assets for the homepage.
+<img width="1366" height="768" alt="Personal Page" src="https://github.com/user-attachments/assets/8f34e78b-6828-4ef2-97d0-3b6c7bcefb07" />
+
+
 ### 09/13/26
 This is a project that allows the user to select a cuisine style, budget, and difficulty level, and then get a random recipe presented to them with time, ingredients, protein, budget, and difficulty listed.   
 Currently updating the recipes as I find more I want to add!
