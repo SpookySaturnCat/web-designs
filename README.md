@@ -11,10 +11,8 @@ Started in the evening of 09/13/2026 between homework and studying, this is in t
 Current task is designing the architecture of the project.
 
 Completed: 
-- Homepage concept:
-<img width="1366" height="768" alt="Personal Page (1)" src="https://github.com/user-attachments/assets/6da1e225-00b9-4208-b07a-c33d6c592da2" />
-[canva concept]
-
+- Homepage concept image:
+<img width="1366" height="768" alt="home-concept" src="https://github.com/user-attachments/assets/894db42d-5987-4d2c-b716-6b1f6c455af6" />
 
 ### 09/13/26
 This is a project that allows the user to select a cuisine style, budget, and difficulty level, and then get a random recipe presented to them with time, ingredients, protein, budget, and difficulty listed.   
