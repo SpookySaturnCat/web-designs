@@ -9,6 +9,9 @@ Most of this stuff is old and are learning experiments.
 ### 09/15/26
 Started in the evening of 09/13/2026 between homework and studying, this is in the early planning stage, and will be a relatively large personal project for me.   
 Current task is designing the architecture of the project.
+
+Completed: 
+- Homepage concept:
 <img width="1366" height="768" alt="Personal Page (1)" src="https://github.com/user-attachments/assets/6da1e225-00b9-4208-b07a-c33d6c592da2" />
 [canva concept]
 
