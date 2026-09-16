@@ -8,8 +8,9 @@ Most of this stuff is old and are learning experiments.
 
 ### 09/14/26
 Started in the evening of 09/13/2026 between homework and studying, this is in the early planning stage, and will be a relatively large personal project for me.   
-Current task is completing the design concept for the homepage in Canva, and creating/obtaining assets for the homepage.
-<img width="1366" height="768" alt="Personal Page" src="https://github.com/user-attachments/assets/8f34e78b-6828-4ef2-97d0-3b6c7bcefb07" />
+Current task is designing the architecture of the project.
+<img width="1366" height="768" alt="Personal Page (1)" src="https://github.com/user-attachments/assets/6da1e225-00b9-4208-b07a-c33d6c592da2" />
+[canva concept]
 
 
 ### 09/13/26
