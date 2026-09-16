@@ -1,6 +1,6 @@
 # This file will help publicly track progress with the project stack and any updates or info on the project listed. 
 
-##09/05/2026 Update
+## 09/05/2026 Update
 Currently I will be update 'entries' into the readme, this will change as the documentation channels grow.   
 A quick and dirty file structure concept was committed tonight, that will be changed and updated overtime.   
 Currently the tech stack and architecture needs to be worked out before file structure is finalized.   
